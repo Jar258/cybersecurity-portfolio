@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Shiv Raj - Digital Forensics Specialist | Cybersecurity Expert
+    </title>
+    <meta
+      name="description"
+      content="Shiv Raj - MCA Student specializing in Digital Forensics,Track on penetration testing, cloud security, and AI-powered security solutions."
+    />
+    <meta
+      name="keywords"
+      content="digital forensics, cybersecurity, penetration testing, cloud security, incident response"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <!-- Matrix Rain Canvas -->
+    <canvas id="matrix-canvas" class="matrix-canvas"></canvas>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-content">
+        <div class="loading-text">
+          <span class="glitch-text">INITIALIZING CYBER DEFENSE SYSTEMS</span>
+          <div class="loading-dots">
+            <span>.</span><span>.</span><span>.</span><span>.</span>
+          </div>
+        </div>
+        <div class="loading-progress">
+          <div class="progress-bar"></div>
+          <div class="progress-percentage">0%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">SR</span>
+          <div class="logo-pulse"></div>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">Profile</a></li>
+          <li><a href="#skills" class="nav-link">Arsenal</a></li>
+          <li><a href="#projects" class="nav-link">Missions</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#future" class="nav-link">Innovation</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="theme-toggle" id="theme-toggle">
+          <span class="theme-icon">🌙</span>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main" id="main-content">
+      <!-- Home Section -->
+      <section id="home" class="section home-section">
+        <div class="floating-icons">
+          <div class="floating-icon">🛡️</div>
+          <div class="floating-icon">🔒</div>
+          <div class="floating-icon">🌐</div>
+          <div class="floating-icon">⛓️</div>
+        </div>
+        <div class="container">
+          <div class="home-content">
+            <div class="cube-container">
+              <div class="holographic-cube">
+                <div class="cube-face front"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face bottom"></div>
+                <div class="particle-system"></div>
+              </div>
+            </div>
+            <div class="intro-text">
+              <h1 class="typing-text glitch-text" id="main-title"></h1>
+              <h2 class="typing-text cyber-subtitle" id="subtitle"></h2>
+              <h3 class="typing-text cert-track" id="cert-track"></h3>
+              <p class="mission-statement">
+                Aspiring cybersecurity professional with specialized focus on
+                Digital Forensics and Incident Response. Currently pursuing MCA
+                while developing expertise in AI-powered security solutions and
+                  zero-trust architectures.
+              </p>
+              <div class="cta-buttons">
+                <a href="#skills" class="btn btn--primary glow-btn"
+                  >View Arsenal</a
+                >
+                <a href="#projects" class="btn btn--outline glow-btn"
+                  >Mission Files</a
+                >
+                <a href="#contact" class="btn btn--secondary glow-btn"
+                  >Secure Contact</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title glitch-text">
+              OPERATIVE PROFILE - CLASSIFIED ACCESS
+            </h2>
+            <div class="security-badge">🔒 CLEARANCE LEVEL: CONFIDENTIAL</div>
+          </div>
+          <div class="about-content">
+            <div class="profile-card">
+              <div class="profile-image">
+                <div class="avatar-placeholder">
+                  <span class="avatar-text">SR</span>
+                  <div class="cybersecurity-overlay"></div>
+                </div>
+              </div>
+              <div class="profile-info">
+                <h3 class="profile-name">Shiv Raj</h3>
+                <p class="profile-title">Digital Forensics Specialist</p>
+                <p class="profile-location">📍 India</p>
+              </div>
+            </div>
+            <div class="about-text">
+              <h3>Mission Brief</h3>
+              <p>
+                As an MCA student with a passion for cybersecurity, I am
+                dedicated to mastering the intricate field of digital forensics
+                while developing comprehensive skills across the cybersecurity
+                spectrum. My journey combines academic excellence with practical
+                experience in investigating cyber incidents and securing digital
+                environments.
+              </p>
+
+              <div class="career-trajectory">
+                <h4>Career Trajectory Timeline</h4>
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <span class="timeline-date">present</span>
+                      <span class="timeline-title">MCA Final Year</span>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <span class="timeline-date"></span>
+                      <span class="timeline-title"></span>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <span class="timeline-date"></span>
+                      <span class="timeline-title"></span>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <span class="timeline-date">2026+</span>
+                      <span class="timeline-title">Moving to becoming cyber expert</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="career-goals">
+              <h4>Strategic Objectives</h4>
+              <ul class="goals-list">
+                <li class="goal-item">
+                  🎯 Master Digital Forensics & Incident Response
+                </li>
+                
+                <li class="goal-item">
+                  🤖 Develop AI-Powered Security Solutions & Zero-Trust Architecture
+                </li>
+                <li class="goal-item">
+                  🌍 Build International Cybersecurity Career
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title glitch-text">
+              SECURITY ARSENAL - CAPABILITIES MATRIX
+            </h2>
+          </div>
+
+          <div class="skills-radar-container">
+            <div
+              class="radar-chart-wrapper"
+              style="position: relative; height: 400px"
+            >
+              <canvas
+                id="skills-radar"
+                aria-label="Skills Proficiency Radar Chart"
+              ></canvas>
+            </div>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card" data-skill="digital-forensics">
+              <div class="skill-header">
+                <div class="skill-icon">🔍</div>
+                <h3>Digital Forensics</h3>
+                <div class="skill-percentage">98%</div>
+              </div>
+              <div class="skill-details">
+                <div class="skill-item">Disk Forensics</div>
+                <div class="skill-item">Memory Forensics</div>
+                <div class="skill-item">Network Forensics</div>
+                <div class="skill-item">Mobile Forensics</div>
+                <div class="skill-item">Cloud Forensics</div>
+              </div>
+              <div class="proficiency-bar">
+                <div class="proficiency-fill" style="width: 98%"></div>
+              </div>
+            </div>
+
+            <div class="skill-card" data-skill="penetration-testing">
+              <div class="skill-header">
+                <div class="skill-icon">🛡️</div>
+                <h3>Penetration Testing</h3>
+                <div class="skill-percentage">85%</div>
+              </div>
+              <div class="skill-details">
+                <div class="skill-item">Web Application Testing</div>
+                <div class="skill-item">Network Pentesting</div>
+                <div class="skill-item">Wireless Security</div>
+                <div class="skill-item">Social Engineering</div>
+              </div>
+              <div class="proficiency-bar">
+                <div class="proficiency-fill" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-card" data-skill="cloud-security">
+              <div class="skill-header">
+                <div class="skill-icon">☁️</div>
+                <h3>Cloud Security</h3>
+                <div class="skill-percentage">90%</div>
+              </div>
+              <div class="skill-details">
+                <div class="skill-item">AWS Security</div>
+                <div class="skill-item">Azure Security</div>
+                <div class="skill-item">Zero-Trust Architecture</div>
+                <div class="skill-item">IAM & Compliance</div>
+              </div>
+              <div class="proficiency-bar">
+                <div class="proficiency-fill" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-card" data-skill="ai-ml-security">
+              <div class="skill-header">
+                <div class="skill-icon">🤖</div>
+                <h3>AI/ML Security</h3>
+                <div class="skill-percentage">70%</div>
+              </div>
+              <div class="skill-details">
+                <div class="skill-item">Threat Detection</div>
+                <div class="skill-item">Automated Response</div>
+                <div class="skill-item">ML Pipeline Security</div>
+                <div class="skill-item">Adversarial ML</div>
+              </div>
+              <div class="proficiency-bar">
+                <div class="proficiency-fill" style="width: 70%"></div>
+              </div>
+            </div>
+
+            <div class="skill-card" data-skill="incident-response">
+              <div class="skill-header">
+                <div class="skill-icon">🚨</div>
+                <h3>Incident Response</h3>
+                <div class="skill-percentage">88%</div>
+              </div>
+              <div class="skill-details">
+                <div class="skill-item">DFIR</div>
+                <div class="skill-item">Malware Analysis</div>
+                <div class="skill-item">Threat Hunting</div>
+                <div class="skill-item">Crisis Management</div>
+              </div>
+              <div class="proficiency-bar">
+                <div class="proficiency-fill" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tools-section">
+            <h3>Tools & Technologies Arsenal</h3>
+            <div class="tools-grid">
+              <div class="tool-item" data-proficiency="95">
+                <span class="tool-name">Autopsy</span>
+                <span class="tool-category">Forensics</span>
+                <div class="tool-badge">Expert</div>
+              </div>
+              <div class="tool-item" data-proficiency="90">
+                <span class="tool-name">Volatility</span>
+                <span class="tool-category">Memory Analysis</span>
+                <div class="tool-badge">Advanced</div>
+              </div>
+              <div class="tool-item" data-proficiency="92">
+                <span class="tool-name">Wireshark</span>
+                <span class="tool-category">Network Analysis</span>
+                <div class="tool-badge">Expert</div>
+              </div>
+              <div class="tool-item" data-proficiency="88">
+                <span class="tool-name">Burp Suite</span>
+                <span class="tool-category">Web Testing</span>
+                <div class="tool-badge">Advanced</div>
+              </div>
+              <div class="tool-item" data-proficiency="85">
+                <span class="tool-name">Metasploit</span>
+                <span class="tool-category">Pentesting</span>
+                <div class="tool-badge">Advanced</div>
+              </div>
+              <div class="tool-item" data-proficiency="93">
+                <span class="tool-name">Python</span>
+                <span class="tool-category">Automation</span>
+                <div class="tool-badge">Expert</div>
+              </div>
+              <div class="tool-item" data-proficiency="87">
+                <span class="tool-name">YARA</span>
+                <span class="tool-category">Malware Analysis</span>
+                <div class="tool-badge">Advanced</div>
+              </div>
+              <div class="tool-item" data-proficiency="80">
+                <span class="tool-name">Splunk</span>
+                <span class="tool-category">SIEM</span>
+                <div class="tool-badge">Intermediate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title glitch-text">
+              MISSION FILES - CLASSIFIED OPERATIONS
+            </h2>
+            <div class="project-filters">
+              <button class="filter-btn active" data-filter="all">
+                All Missions
+              </button>
+              <button class="filter-btn" data-filter="forensics">
+                Forensics
+              </button>
+              <button class="filter-btn" data-filter="cloud">Cloud</button>
+              <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+              <button class="filter-btn" data-filter="mobile">Mobile</button>
+              <button class="filter-btn" data-filter="intelligence">
+                Intelligence
+              </button>
+            </div>
+          </div>
+
+          <div class="projects-grid" id="projects-grid">
+            <!-- Projects will be dynamically inserted by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="section certifications-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title glitch-text">
+              CERTIFICATIONS & ACHIEVEMENTS
+            </h2>
+          </div>
+
+          <div class="certifications-content">
+            <div class="cert-progress">
+              <h3>Certification Progress</h3>
+              <div class="cert-item">
+                <div class="cert-info">
+                  <span class="cert-name">CompTIA Security+</span>
+                  <span class="cert-status completed">Completed 2024</span>
+                </div>
+                <div class="cert-bar">
+                  <div class="cert-fill" style="width: 100%"></div>
+                </div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-info">
+                  <span class="cert-name">GCIH</span>
+                  <span class="cert-status in-progress">75% Complete</span>
+                </div>
+                <div class="cert-bar">
+                  <div class="cert-fill" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-info">
+                  <span class="cert-name">CEH (Certified Ethical Hacker)</span>
+                  <span class="cert-status preparing">60% Prepared</span>
+                </div>
+                <div class="cert-bar">
+                  <div class="cert-fill" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-info">
+                  <span class="cert-name">CISSP</span>
+                  <span class="cert-status planned">30% Planned</span>
+                </div>
+                <div class="cert-bar">
+                  <div class="cert-fill" style="width: 30%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="achievements">
+              <h3>Achievements & Recognition</h3>
+              <div class="achievement-grid">
+                <div class="achievement-item">
+                  <div class="achievement-icon">🏆</div>
+                  <div class="achievement-text">
+                    <h4>Top 15% National Cyber Competition</h4>
+                    <p>2024</p>
+                  </div>
+                </div>
+                <div class="achievement-item">
+                  <div class="achievement-icon">🥇</div>
+                  <div class="achievement-text">
+                    <h4>Best Project Award</h4>
+                    <p>Digital Forensics Course</p>
+                  </div>
+                </div>
+                <div class="achievement-item">
+                  <div class="achievement-icon">📄</div>
+                  <div class="achievement-text">
+                    <h4>Research Publication</h4>
+                    <p>AI-Assisted Forensics</p>
+                  </div>
+                </div>
+                <div class="achievement-item">
+                  <div class="achievement-icon">🎤</div>
+                  <div class="achievement-text">
+                    <h4>Conference Speaker</h4>
+                    <p>Regional Cybersecurity</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Future Vision Section -->
+      <section id="future" class="section future-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title glitch-text">
+              INNOVATION LAB - R&D INITIATIVES
+            </h2>
+            <p class="section-subtitle">
+              Pioneering the future of cybersecurity and digital forensics
+            </p>
+          </div>
+          <div class="future-grid">
+            <div class="future-card" data-timeline="2025-2027">
+              <div class="future-icon">⚛️</div>
+              <h3>Quantum-Resistant Forensics Framework</h3>
+              <p>
+                Research and development of forensic methods resistant to
+                quantum computing attacks
+              </p>
+              <div class="timeline-badge">2025-2027</div>
+              <div class="impact-text">
+                Prepare forensic community for post-quantum cryptography era
+              </div>
+            </div>
+            <div class="future-card" data-timeline="2025-2026">
+              <div class="future-icon">🤖</div>
+              <h3>AI-Driven Cyber Threat Intelligence Platform</h3>
+              <p>
+                Comprehensive threat intelligence platform powered by advanced
+                AI/ML
+              </p>
+              <div class="timeline-badge">2025-2026</div>
+              <div class="impact-text">
+                Revolutionize threat detection with predictive capabilities
+              </div>
+            </div>
+            <div class="future-card" data-timeline="2026-2028">
+              <div class="future-icon">🥽</div>
+              <h3>Immersive Cybersecurity Training Metaverse</h3>
+              <p>
+                Virtual reality training environment for hands-on cybersecurity
+                education
+              </p>
+              <div class="timeline-badge">2026-2028</div>
+              <div class="impact-text">
+                Transform cybersecurity education through immersive experiences
+              </div>
+            </div>
+            <div class="future-card" data-timeline="2025-2026">
+              <div class="future-icon">🔗</div>
+              <h3>Blockchain-Based Evidence Chain of Custody</h3>
+              <p>
+                Immutable evidence tracking system using blockchain technology
+              </p>
+              <div class="timeline-badge">2025-2026</div>
+              <div class="impact-text">
+                Ensure evidence integrity and admissibility in digital forensics
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title glitch-text">
+              SECURE COMMUNICATIONS CHANNEL
+            </h2>
+            <p class="section-subtitle">
+              Establishing encrypted connection for cybersecurity collaborations
+            </p>
+          </div>
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                  <h4>Secure Email</h4>
+                  <a href="mailto:Shivraj26621@gmail.com"
+                    >Shivraj2662@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">💼</div>
+                <div class="contact-details">
+                  <h4>Professional Network</h4>
+                  <a
+                    href="https://linkedin.com/in/shivraj-cybersecurity"
+                    target="_blank"
+                    >linkedin.com/in/shivraj-cybersecurity</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">💻</div>
+                <div class="contact-details">
+                  <h4>Code Repository</h4>
+                  <a href="https://github.com/shivraj-cyber" target="_blank"
+                    >github.com/shivraj-cyber</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div class="contact-details">
+                  <h4>Secure Line</h4>
+                  <span>+91-7078193319</span>
+                </div>
+              </div>
+
+              <div class="social-proof">
+                <h4>Professional References</h4>
+                <div class="testimonial">
+                  <p>
+                    "Exceptional skills in digital forensics with a keen eye for
+                    detail."
+                  </p>
+                  <span>- Academic Supervisor</span>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+              <div class="form-header">
+                <h3>🔐 Encrypted Message Portal</h3>
+                <p>Military-grade security protocols active</p>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Agent Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Secure Channel</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label">Mission Brief</label>
+                <select
+                  id="subject"
+                  name="subject"
+                  class="form-control"
+                  required
+                >
+                  <option value="">Select Mission Type</option>
+                  <option value="collaboration">
+                    Collaboration Opportunity
+                  </option>
+                  <option value="consultation">Security Consultation</option>
+                  <option value="project">Project Discussion</option>
+                  <option value="research">Research Partnership</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label"
+                  >Encrypted Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Transmit your secure message..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary glow-btn">
+                <span>🚀 Transmit Secure Message</span>
+              </button>
+            </form>
+          </div>
+
+          <div class="availability-calendar">
+            <h3>Consultation Availability</h3>
+            <div class="calendar-info">
+              <p>
+                Available for cybersecurity consultations and project
+                discussions
+              </p>
+              <div class="timezone">🕐 Timezone: IST (UTC+5:30)</div>
+              <div class="response-time">⚡ Response Time: Within 24 hours</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
